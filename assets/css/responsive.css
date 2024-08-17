@@ -1,0 +1,62 @@
+@media (max-width:576px){
+    .navbar .nav-list{
+        display: none;
+    }
+    .open-btn{
+        display: block;
+    }
+}
+
+
+
+@media (max-width:988px){
+    h1,.cta-header{
+        font-size: 40px;
+       margin-bottom: 20px;
+    }
+    p.courses{
+        font-size: 20px;
+    }
+    p.help{
+        font-size: 30px;
+    }
+    #hero .drop-btn{
+        margin: 30px 0;
+    }
+    .social{
+        gap: 20px;
+    }
+    p.connect,.social li a{
+        font-size: 26px;
+        
+    }
+    #help h2{
+        font-size: 30px;
+    }
+    .work-header{
+        flex-direction: column;
+    }
+    .work-header h4{
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+  .work-content .work-name{
+    font-size: 40px;
+  }
+ .process-header{
+font-size: 34px;
+ }
+ .process-info{
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ footer ul{
+    justify-content: center;
+    margin: 20px 0;
+   
+ }
+ footer p.reserve{
+
+    font-size: 18px;
+ }
+}

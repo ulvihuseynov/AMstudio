@@ -1,0 +1,278 @@
+@import url(./reset.css);
+@import url(./layout.css);
+@import url(./responsive.css);
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Playfair Display", serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+ .nav-list {
+  display: flex;
+  gap: 30px;
+}
+.open-btn{
+  display: none;
+  cursor: pointer;
+}
+.open-btn i{
+  font-size: 22px;
+  
+}
+.close-btn{
+  cursor: pointer;
+}
+.res-navbar{
+ 
+  display: none;
+  font-size: 22px;
+  gap: 20px;
+  padding: 0 50px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  background-color: rgb(242, 242, 242);
+  top: 0;
+  bottom: 0;
+  box-shadow: 2px 2px 1px 2px grey;
+}
+.res-navbar li a{
+  color: #000000;
+}
+/* * hero section */
+
+.mt-6 {
+  margin-top: 60px;
+}
+h1 {
+  font-weight: 400;
+  font-size: 182px;
+  line-height: 1.5;
+}
+p.courses {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+p.help {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 54.12px;
+}
+p.connect,
+.social li a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.14px;
+}
+p.connect {
+  position: relative;
+  margin-bottom: 20px;
+}
+p.connect::after {
+  content: " ";
+  position: absolute;
+  border-bottom: 1px solid;
+  width: 40%;
+  bottom: -20px;
+  left: 0;
+}
+.social-box,
+.social {
+  display: flex;
+  flex-direction: column;
+}
+.social-box {
+  gap: 20px;
+}
+.social {
+  gap: 10px;
+}
+.drop-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drop-btn span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: inline-block;
+  margin-left: 30px;
+}
+/** help section */
+
+#help h2,p.number{
+font-size: 44px;
+font-weight: 500;
+line-height: 54.12px;
+
+
+}
+h2{
+    margin-bottom: 30px;
+   
+}
+.help-card-box{
+    border-left: 1px solid;
+    padding:0 40px;
+    margin: 30px 0;
+
+}
+p.number{
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+h5{
+font-size: 24px;
+font-weight: 600;
+line-height: 29.52px;
+margin-bottom: 10px;
+
+}
+p.about-course{
+font-size: 18px;
+line-height: 22.14px;
+
+
+}
+/* * work section */
+.work-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.work-header h4{
+font-size: 44px;
+font-weight: 500;
+line-height: 54.12px;
+position: relative;
+
+}
+.work-header h4 span{
+position: absolute;
+bottom: 10px;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.68px;
+
+
+}
+.work-header p{
+font-size: 24px;
+font-weight: 500;
+line-height: 29.52px;
+
+
+}
+.works-box{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    align-items: center;
+    /* gap: 30px; */
+}
+.work-content .work-name{
+font-size: 96px;
+font-weight: 500;
+line-height: 118.08px;
+ 
+
+}
+.work-content .content-course{
+font-size: 24px;
+font-weight: 400;
+line-height: 29.52px;
+text-align: left;
+
+}
+.work-count .count{
+font-size: 34px;
+font-weight: 500;
+line-height: 41.82px;
+
+
+}
+
+
+
+
+/** process section  */
+.p-20{
+  padding: 20px 10px;
+}
+.process-accordion{
+  border-bottom: 1px solid;
+}
+.process-header{
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.2;
+margin-bottom: 30px ;
+  }
+  .process-info{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.52px;
+  }
+.heading-box div{
+  display: flex;
+  gap: 20px;
+}
+.heading-box div span,.heading-box div p{
+ 
+font-size: 24px;
+font-weight: 500;
+line-height: 29.52px;
+}
+.heading-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-information{
+ padding: 30px 0;
+font-size: 18px;
+line-height: 22.14px;
+} 
+/* *cta section */
+.cta-header{
+  
+font-size: 96px;
+font-weight: 500;
+line-height: 1.4;
+
+
+}
+.cta-btn{
+  display: flex;
+ align-self: flex-end;
+}
+/* *footer */
+footer{
+  margin-bottom: 50px;
+}
+footer p.reserve{
+font-size: 24px;
+}
+footer ul{
+ justify-content: end;
+}
+footer ul li a{
+
+font-size: 18px;
+font-weight: 500;
+}
